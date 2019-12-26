@@ -10,7 +10,7 @@ public class MinIndexHeap <Item extends Comparable> {
 	private int capacity;
 	private int count;
 	
-	@SuppressWarnings("unchecked")
+	
 	public MinIndexHeap(int capacity) {
 		this.capacity = capacity;
 		count =0;
